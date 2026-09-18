@@ -100,12 +100,8 @@ class RuleBasedChatbot:
             "Not sure how to respond to that yet — maybe try 'help'?",
         ]
 
-    # ----------------------------------------------------------------
-    # Helper rule-checkers
-    # ----------------------------------------------------------------
+    # ----Helper rule-checkers----------------------------------------
     def _matches_any(self, text, keywords):
-        # Word-boundary match so short keywords (e.g. 'yo', 'no') don't
-        # false-positive inside longer words (e.g. 'you', 'know').
         return any(re.search(r"\b" + re.escape(keyword) + r"\b", text)
                    for keyword in keywords)
 
@@ -170,9 +166,7 @@ class RuleBasedChatbot:
 
         return f"The result of {num1:g} {op} {num2:g} is {result}."
 
-    # ----------------------------------------------------------------
-    # Main response generator
-    # ----------------------------------------------------------------
+    # ---Main response generator --------------------------------------
     def generate_response(self, user_input):
         text = user_input.lower().strip()
 
@@ -227,7 +221,6 @@ class RuleBasedChatbot:
             print(f"{self.name}: {response}")
             if self._matches_any(user_input.lower(), self.farewells):
                 break
-
 
 if __name__ == "__main__":
     bot = RuleBasedChatbot(name="BotBuddy")
