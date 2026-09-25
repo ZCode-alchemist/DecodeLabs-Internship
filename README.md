@@ -71,8 +71,9 @@ A Python-based movie recommendation system that recommends movies based on the u
 
 If the user enters:
 
-text
+```text
 Action, Sci-Fi
+```
 
 the system compares these preferences with the genres of available movies and displays the movies with the highest matching percentage.
 
@@ -80,7 +81,7 @@ the system compares these preferences with the genres of available movies and di
 
 ## Project Structure
 
-text
+```text
 DecodeLabs/
 │
 ├── Rule-based_P1.py
@@ -89,3 +90,4 @@ DecodeLabs/
 ├── confusion_matrix.png
 ├── README.md
 └── .gitattributes
+```
