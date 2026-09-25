@@ -1,31 +1,52 @@
-# AI Chatbot
+# DecodeLabs AI Internship Projects
 
-## 📌 Project Description
+This repository contains my Artificial Intelligence projects completed during the DecodeLabs Industrial Training Program.
 
-AI Chatbot is an interactive chatbot application that allows users to communicate with an AI through a simple and user-friendly interface.
+## Projects
 
-The chatbot processes user questions and generates AI-based responses, providing a conversational experience.
+### Project 1 - AI Chatbot
 
-## ✨ Features
+An interactive chatbot application that allows users to communicate with an AI through a simple and user-friendly interface.
 
-- 💬 Interactive chat interface
-- 🤖 AI-generated responses
-- 📝 User-friendly interface
-- ⚡ Real-time conversation
-- 🔄 Continuous conversation with the chatbot
+**Features:**
+- Interactive chat interface
+- AI-generated responses
+- Conversational interaction
 
-## 🛠️ Technologies Used
-
+**Technologies:**
 - Python
-- [Add your AI API/library here]
-- [Add other technologies here]
+- AI API / Library
 
-## 📂 Project Structure
+---
+
+### Project 2 - Iris Flower Classification
+
+A machine learning classification project that uses the Iris dataset to classify flowers into different species based on their features.
+
+**Features:**
+- Iris dataset classification
+- Data preprocessing
+- Feature scaling
+- Machine learning classification
+- Model evaluation
+- Classification report
+- Confusion matrix visualization
+- Example prediction
+
+**Technologies:**
+- Python
+- Scikit-learn
+- Pandas
+- Matplotlib
+- Seaborn
+
+**Files:**
 
 ```text
-AI-Chatbot/
+DecodeLabs/
 │
-├── main.py
+├── Rule-based_P1.py
+├── project2_classification.py
+├── confusion_matrix.png
 ├── README.md
-├── requirements.txt
-└── [other files]
+└── .gitattributes
